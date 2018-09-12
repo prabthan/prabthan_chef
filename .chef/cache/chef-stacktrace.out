@@ -1,0 +1,12 @@
+Generated at 2018-09-10 07:12:03 +0000
+SyntaxError: helloworld.rb:4: syntax error, unexpected tSYMBEG, expecting keyword_do or '{' or '('
+action:touch
+       ^
+helloworld.rb:6: syntax error, unexpected keyword_end, expecting end-of-input
+/opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/chef-12.16.42/lib/chef/application/apply.rb:192:in `instance_eval'
+/opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/chef-12.16.42/lib/chef/application/apply.rb:192:in `run_chef_recipe'
+/opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/chef-12.16.42/lib/chef/application/apply.rb:205:in `run_application'
+/opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/chef-12.16.42/lib/chef/application/apply.rb:218:in `run'
+/opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/chef-12.16.42/bin/chef-apply:25:in `<top (required)>'
+/usr/bin/chef-apply:58:in `load'
+/usr/bin/chef-apply:58:in `<main>'
