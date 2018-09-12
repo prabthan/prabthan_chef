@@ -12,5 +12,11 @@ end
 
 describe port(8080) do
   it { should be_listening }
-  its('processes') {should include 'tomcat'}
+  its('processes') {should include 'java'}
 end
+
+describe port(3306) do
+  it { should be_listening }
+  its('processes') {should include 'mysqld'}
+end
+
